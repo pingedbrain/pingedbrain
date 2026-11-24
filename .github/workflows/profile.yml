@@ -36,9 +36,12 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Public repos only, so private work never lands on the profile.
+          # Show ministack contributions and my own repos; skip work CI noise.
           gh search prs --author "${{ github.repository_owner }}" --merged --visibility public \
-            --sort updated --limit 5 --json title,url,repository \
-            --jq '.[] | "- [`\(.repository.nameWithOwner)`](\(.url)) \(.title)"' > pings.md
+            --sort updated --limit 50 --json title,url,repository \
+            --jq '[.[] | select(.repository.nameWithOwner == "ministackorg/ministack"
+                     or (.repository.nameWithOwner | startswith("${{ github.repository_owner }}/")))][:5][]
+                  | "- [`\(.repository.nameWithOwner)`](\(.url)) \(.title)"' > pings.md
           [ -s pings.md ] || exit 0
           awk 'FNR==NR{p=p $0 "\n"; next}
                /<!--PINGS:START-->/{print; printf "%s", p; skip=1; next}
