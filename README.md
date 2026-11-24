@@ -24,6 +24,6 @@ I build developer tools for AWS and the agents that run on top of it: local emul
 <img src="https://skillicons.dev/icons?i=py,rust,go,ts,aws,terraform,kubernetes,docker,postgres,githubactions,linux,neovim&perline=12" alt="Python, Rust, Go, TypeScript, AWS, Terraform, Kubernetes, Docker, Postgres, GitHub Actions, Linux, Neovim" />
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pingedbrain/pingedbrain/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/pingedbrain/pingedbrain/output/snake.svg" alt="Snake eating my contribution graph" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pingedbrain/pingedbrain/output/snake-dark.svg?v=1" />
+  <img src="https://raw.githubusercontent.com/pingedbrain/pingedbrain/output/snake.svg?v=1" alt="Snake eating my contribution graph" width="100%" />
 </picture>
