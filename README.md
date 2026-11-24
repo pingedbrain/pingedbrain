@@ -10,11 +10,11 @@ I build developer tools for AWS and the agents that run on top of it: local emul
 
 #### 📡 Latest pings
 <!--PINGS:START-->
-- [`korz-sh/central-workflows`](https://github.com/korz-sh/central-workflows/pull/65) ci: restore the ECR Public login step
-- [`korz-sh/central-workflows`](https://github.com/korz-sh/central-workflows/pull/64) revert: ECR Public login step (blocked by sts condition)
-- [`korz-sh/central-workflows`](https://github.com/korz-sh/central-workflows/pull/63) ci: log in to ECR Public before builds that pull public base images
 - [`ministackorg/ministack`](https://github.com/ministackorg/ministack/pull/2506) feat(s3control): account-level public access block
 - [`ministackorg/ministack`](https://github.com/ministackorg/ministack/pull/2435) feat(ssm): documents + automation executions
+- [`ministackorg/ministack`](https://github.com/ministackorg/ministack/pull/2489) IAM: service-specific credentials and server certificates
+- [`pingedbrain/microburst`](https://github.com/pingedbrain/microburst/pull/20) chore(fidelity): absorb verified-harmless model drift (botocore 1.43.120)
+- [`pingedbrain/microburst`](https://github.com/pingedbrain/microburst/pull/19) feat(tls): client-side TLS termination via --tls-cert/--tls-key
 <!--PINGS:END-->
 
 <sub>Updated daily by a GitHub Action from my merged PRs.</sub>
