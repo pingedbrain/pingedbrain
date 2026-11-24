@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" role="img" aria-label="$ ping pingedbrain: cloud and platform engineer in Buenos Aires">
+  <defs>
+    <clipPath id="type"><rect x="28" y="60" width="0" height="24"><animate attributeName="width" from="0" to="160" begin="0.3s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    text { font-family: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace; font-size: 13px; fill: #c9d1d9; white-space: pre; }
+    .dim { fill: #8b949e; }
+    .acc { fill: #2dd4bf; }
+    .host { fill: #79c0ff; }
+    .l { opacity: 0; }
+    .tag { font-size: 10px; fill: #8b949e; }
+  </style>
+
+  <rect width="840" height="300" rx="14" fill="#0d1117"/>
+  <rect x=".5" y=".5" width="839" height="299" rx="14" fill="none" stroke="#30363d"/>
+
+  <!-- title bar -->
+  <circle cx="24" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="22" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="22" r="6" fill="#28c840"/>
+  <text x="88" y="26" class="dim" font-size="12">lisandro@buenos-aires: ~</text>
+  <line x1="0" y1="42" x2="840" y2="42" stroke="#21262d"/>
+
+  <!-- terminal -->
+  <g xml:space="preserve">
+    <text x="28" y="78" clip-path="url(#type)"><tspan class="acc">$</tspan> ping pingedbrain</text>
+    <text x="28" y="106" class="l dim">PING pingedbrain (Buenos Aires, AR): 56 data bytes<set attributeName="opacity" to="1" begin="1.4s" fill="freeze"/></text>
+    <text x="28" y="130" class="l">64 bytes from <tspan class="host">mendel</tspan>:     role=<tspan class="acc">platform-engineer</tspan><set attributeName="opacity" to="1" begin="1.7s" fill="freeze"/></text>
+    <text x="28" y="154" class="l">64 bytes from <tspan class="host">korz.sh</tspan>:    role=<tspan class="acc">builder</tspan> ttl=∞<set attributeName="opacity" to="1" begin="2.0s" fill="freeze"/></text>
+    <text x="28" y="178" class="l">64 bytes from <tspan class="host">ministack</tspan>:  merged_prs=<tspan class="acc">15</tspan> stars=<tspan class="acc">5.2k</tspan><set attributeName="opacity" to="1" begin="2.3s" fill="freeze"/></text>
+    <text x="28" y="202" class="l">64 bytes from <tspan class="host">rig-a2a</tspan>:    lang=<tspan class="acc">rust</tspan> proto=<tspan class="acc">A2A</tspan><set attributeName="opacity" to="1" begin="2.6s" fill="freeze"/></text>
+    <text x="28" y="226" class="l">64 bytes from <tspan class="host">microburst</tspan>: faults=<tspan class="acc">injected</tspan> retries=<tspan class="acc">tested</tspan><set attributeName="opacity" to="1" begin="2.9s" fill="freeze"/></text>
+    <text x="28" y="258" class="l dim">--- <tspan class="acc">7,462</tspan> contributions transmitted, 0% packet loss ---<set attributeName="opacity" to="1" begin="3.3s" fill="freeze"/></text>
+  </g>
+  <rect x="28" y="268" width="8" height="15" fill="#2dd4bf" opacity="0">
+    <set attributeName="opacity" to="1" begin="3.5s" fill="freeze"/>
+    <animate attributeName="fill-opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" begin="3.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- sonar -->
+  <g transform="translate(700 160)">
+    <circle r="110" fill="url(#glow)"/>
+    <g fill="none" stroke="#30363d">
+      <circle r="37"/><circle r="73"/><circle r="110"/>
+      <line x1="-110" x2="110"/><line y1="-110" y2="110"/>
+    </g>
+    <g fill="none" stroke="#2dd4bf">
+      <circle r="0"><animate attributeName="r" from="4" to="110" dur="2.4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" from=".7" to="0" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle r="0"><animate attributeName="r" from="4" to="110" dur="2.4s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" from=".7" to="0" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></circle>
+    </g>
+    <g>
+      <path d="M0 0 L0 -110 A110 110 0 0 1 77.8 -77.8 Z" fill="#2dd4bf" fill-opacity=".16"/>
+      <line x1="0" y1="0" x2="77.8" y2="-77.8" stroke="#2dd4bf" stroke-opacity=".8"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    </g>
+    <circle r="3" fill="#2dd4bf"/>
+
+    <!-- blips light up as the sweep's leading edge passes -->
+    <g opacity="0"><circle cx="-50" cy="-50" r="4" fill="#2dd4bf"/><text x="-44" y="-56" class="tag">ministack</text>
+      <animate attributeName="opacity" values="1;0" dur="4s" begin="3s" repeatCount="indefinite"/></g>
+    <g opacity="0"><circle cx="60" cy="-30" r="4" fill="#2dd4bf"/><text x="40" y="-38" class="tag">rig-a2a</text>
+      <animate attributeName="opacity" values="1;0" dur="4s" begin="0.2s" repeatCount="indefinite"/></g>
+    <g opacity="0"><circle cx="35" cy="55" r="4" fill="#2dd4bf"/><text x="10" y="74" class="tag">microburst</text>
+      <animate attributeName="opacity" values="1;0" dur="4s" begin="1.14s" repeatCount="indefinite"/></g>
+    <g opacity="0"><circle cx="-40" cy="50" r="4" fill="#2dd4bf"/><text x="-92" y="44" class="tag">tessera-db</text>
+      <animate attributeName="opacity" values="1;0" dur="4s" begin="1.93s" repeatCount="indefinite"/></g>
+  </g>
+</svg>
