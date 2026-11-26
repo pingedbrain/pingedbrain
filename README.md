@@ -14,12 +14,12 @@ Six companion crates for [Rig](https://github.com/0xPlaygrounds/rig), the Rust L
 
 | Crate | What it does |
 |---|---|
-| [![rig-a2a](https://img.shields.io/crates/v/rig-a2a?style=flat-square&label=rig-a2a&color=0f766e)](https://crates.io/crates/rig-a2a) | Serve Rig agents over A2A (v1.0 and v0.3 for Strands), call remote A2A agents as tools |
-| [![rig-mcp-server](https://img.shields.io/crates/v/rig-mcp-server?style=flat-square&label=rig-mcp-server&color=0f766e)](https://crates.io/crates/rig-mcp-server) | Serve Rig agents and tools over MCP, stdio or Streamable HTTP |
-| [![rig-multiagent](https://img.shields.io/crates/v/rig-multiagent?style=flat-square&label=rig-multiagent&color=0f766e)](https://crates.io/crates/rig-multiagent) | Swarms that hand off work and graphs of agents: streamed, human-in-the-loop, resumable |
-| [![rig-agentcore](https://img.shields.io/crates/v/rig-agentcore?style=flat-square&label=rig-agentcore&color=0f766e)](https://crates.io/crates/rig-agentcore) | Run a Rig agent on AWS Bedrock AgentCore Runtime |
-| [![rig-otel](https://img.shields.io/crates/v/rig-otel?style=flat-square&label=rig-otel&color=0f766e)](https://crates.io/crates/rig-otel) | OpenTelemetry in one call: spans, GenAI metrics, cross-process traces |
-| [![rig-evals](https://img.shields.io/crates/v/rig-evals?style=flat-square&label=rig-evals&color=0f766e)](https://crates.io/crates/rig-evals) | Evaluate agents: datasets, LLM judges, pass-rate gates for CI, JUnit reports |
+| [`rig-a2a`](https://crates.io/crates/rig-a2a) | Serve Rig agents over A2A (v1.0 and v0.3 for Strands), call remote A2A agents as tools |
+| [`rig-mcp-server`](https://crates.io/crates/rig-mcp-server) | Serve Rig agents and tools over MCP, stdio or Streamable HTTP |
+| [`rig-multiagent`](https://crates.io/crates/rig-multiagent) | Swarms that hand off work and graphs of agents: streamed, human-in-the-loop, resumable |
+| [`rig-agentcore`](https://crates.io/crates/rig-agentcore) | Run a Rig agent on AWS Bedrock AgentCore Runtime |
+| [`rig-otel`](https://crates.io/crates/rig-otel) | OpenTelemetry in one call: spans, GenAI metrics, cross-process traces |
+| [`rig-evals`](https://crates.io/crates/rig-evals) | Evaluate agents: datasets, LLM judges, pass-rate gates for CI, JUnit reports |
 
 #### 🧬 Now building: [nf-agents](https://github.com/pingedbrain/nf-agents)
 
