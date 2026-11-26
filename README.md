@@ -23,7 +23,7 @@ Six companion crates for [Rig](https://github.com/0xPlaygrounds/rig), the Rust L
 
 #### 🧬 Now building: [nf-agents](https://github.com/pingedbrain/nf-agents)
 
-AI agents **inside** Nextflow pipelines, in your own cloud account, with evals and lineage. Rust lineage tooling exposed over MCP, nf-core-compatible agent modules, and `nf-llm-replay` so PR tests need no API keys. <sub>Pre-alpha.</sub>
+AI agents **inside** Nextflow pipelines, in your own cloud account, with evals and lineage. Rust lineage tooling exposed over MCP, nf-core-compatible agent modules, and `nf-llm-replay` so PR tests need no API keys. <sub>Work in progress.</sub>
 
 #### 📡 Latest pings
 <!--PINGS:START-->

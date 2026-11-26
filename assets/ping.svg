@@ -34,7 +34,7 @@
     <text x="28" y="170" class="l">64 bytes from <tspan class="host">ministack</tspan>:  merged_prs=<tspan class="acc">15</tspan> stars=<tspan class="acc">5.2k</tspan><set attributeName="opacity" to="1" begin="2.3s" fill="freeze"/></text>
     <text x="28" y="192" class="l">64 bytes from <tspan class="host">rig-*</tspan>:      crates=<tspan class="acc">6</tspan> published=<tspan class="acc">crates.io</tspan><set attributeName="opacity" to="1" begin="2.6s" fill="freeze"/></text>
     <text x="28" y="214" class="l">64 bytes from <tspan class="host">microburst</tspan>: faults=<tspan class="acc">injected</tspan> retries=<tspan class="acc">tested</tspan><set attributeName="opacity" to="1" begin="2.9s" fill="freeze"/></text>
-    <text x="28" y="236" class="l">64 bytes from <tspan class="host">nf-agents</tspan>:  pipelines=<tspan class="acc">nextflow</tspan> stage=<tspan class="acc">pre-alpha</tspan><set attributeName="opacity" to="1" begin="3.2s" fill="freeze"/></text>
+    <text x="28" y="236" class="l">64 bytes from <tspan class="host">nf-agents</tspan>:  pipelines=<tspan class="acc">nextflow</tspan> status=<tspan class="acc">wip</tspan><set attributeName="opacity" to="1" begin="3.2s" fill="freeze"/></text>
     <text x="28" y="264" class="l dim">--- <tspan class="acc">7,857</tspan> contributions transmitted, 0% packet loss ---<set attributeName="opacity" to="1" begin="3.5s" fill="freeze"/></text>
   </g>
   <rect x="28" y="272" width="8" height="14" fill="#2dd4bf" opacity="0">
