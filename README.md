@@ -8,6 +8,14 @@
 
 I build developer tools for AWS and the agents that run on top of it: local emulators, fault injection, agent protocols, and infra that doesn't page you at 3am.
 
+#### 🦀 Rig, extended
+
+Crates that plug [Rig](https://github.com/0xPlaygrounds/rig), the Rust LLM framework, into the wider agent world:
+
+- **[rig-a2a](https://github.com/pingedbrain/rig-a2a)**: serve Rig agents over Agent2Agent, and call any A2A agent as a Rig tool
+- **[rig-mcp-server](https://github.com/pingedbrain/rig-mcp-server)**: expose Rig agents and tools over MCP, with sessions, streamed progress and cancellation
+- **[rig-multiagent](https://github.com/pingedbrain/rig-multiagent)**: Swarm handoffs and Graph orchestration with conditional edges and parallel branches
+
 #### 📡 Latest pings
 <!--PINGS:START-->
 - [`ministackorg/ministack`](https://github.com/ministackorg/ministack/pull/2506) feat(s3control): account-level public access block

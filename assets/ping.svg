@@ -32,7 +32,7 @@
     <text x="28" y="130" class="l">64 bytes from <tspan class="host">mendel</tspan>:     role=<tspan class="acc">platform-engineer</tspan><set attributeName="opacity" to="1" begin="1.7s" fill="freeze"/></text>
     <text x="28" y="154" class="l">64 bytes from <tspan class="host">korz.sh</tspan>:    role=<tspan class="acc">builder</tspan> ttl=∞<set attributeName="opacity" to="1" begin="2.0s" fill="freeze"/></text>
     <text x="28" y="178" class="l">64 bytes from <tspan class="host">ministack</tspan>:  merged_prs=<tspan class="acc">15</tspan> stars=<tspan class="acc">5.2k</tspan><set attributeName="opacity" to="1" begin="2.3s" fill="freeze"/></text>
-    <text x="28" y="202" class="l">64 bytes from <tspan class="host">rig-a2a</tspan>:    lang=<tspan class="acc">rust</tspan> proto=<tspan class="acc">A2A</tspan><set attributeName="opacity" to="1" begin="2.6s" fill="freeze"/></text>
+    <text x="28" y="202" class="l">64 bytes from <tspan class="host">rig-*</tspan>:      crates=<tspan class="acc">a2a</tspan>,<tspan class="acc">mcp</tspan>,<tspan class="acc">multiagent</tspan><set attributeName="opacity" to="1" begin="2.6s" fill="freeze"/></text>
     <text x="28" y="226" class="l">64 bytes from <tspan class="host">microburst</tspan>: faults=<tspan class="acc">injected</tspan> retries=<tspan class="acc">tested</tspan><set attributeName="opacity" to="1" begin="2.9s" fill="freeze"/></text>
     <text x="28" y="258" class="l dim">--- <tspan class="acc">7,462</tspan> contributions transmitted, 0% packet loss ---<set attributeName="opacity" to="1" begin="3.3s" fill="freeze"/></text>
   </g>
@@ -66,7 +66,9 @@
       <animate attributeName="opacity" values="1;0" dur="4s" begin="0.2s" repeatCount="indefinite"/></g>
     <g opacity="0"><circle cx="35" cy="55" r="4" fill="#2dd4bf"/><text x="10" y="74" class="tag">microburst</text>
       <animate attributeName="opacity" values="1;0" dur="4s" begin="1.14s" repeatCount="indefinite"/></g>
-    <g opacity="0"><circle cx="-40" cy="50" r="4" fill="#2dd4bf"/><text x="-92" y="44" class="tag">tessera-db</text>
+    <g opacity="0"><circle cx="-40" cy="50" r="4" fill="#2dd4bf"/><text x="-80" y="70" class="tag">rig-mcp</text>
       <animate attributeName="opacity" values="1;0" dur="4s" begin="1.93s" repeatCount="indefinite"/></g>
+    <g opacity="0"><circle cx="-85" cy="10" r="4" fill="#2dd4bf"/><text x="-104" y="28" class="tag">rig-multiagent</text>
+      <animate attributeName="opacity" values="1;0" dur="4s" begin="2.43s" repeatCount="indefinite"/></g>
   </g>
 </svg>
