@@ -8,13 +8,22 @@
 
 I build developer tools for AWS and the agents that run on top of it: local emulators, fault injection, agent protocols, and infra that doesn't page you at 3am.
 
-#### 🦀 Rig, extended
+#### 🦀 [rig-contrib](https://github.com/pingedbrain/rig-contrib): Rig, extended
 
-Crates that plug [Rig](https://github.com/0xPlaygrounds/rig), the Rust LLM framework, into the wider agent world:
+Six companion crates for [Rig](https://github.com/0xPlaygrounds/rig), the Rust LLM framework, all on crates.io and versioned with Rig:
 
-- **[rig-a2a](https://github.com/pingedbrain/rig-a2a)**: serve Rig agents over Agent2Agent, and call any A2A agent as a Rig tool
-- **[rig-mcp-server](https://github.com/pingedbrain/rig-mcp-server)**: expose Rig agents and tools over MCP, with sessions, streamed progress and cancellation
-- **[rig-multiagent](https://github.com/pingedbrain/rig-multiagent)**: Swarm handoffs and Graph orchestration with conditional edges and parallel branches
+| Crate | What it does |
+|---|---|
+| [![rig-a2a](https://img.shields.io/crates/v/rig-a2a?style=flat-square&label=rig-a2a&color=0f766e)](https://crates.io/crates/rig-a2a) | Serve Rig agents over A2A (v1.0 and v0.3 for Strands), call remote A2A agents as tools |
+| [![rig-mcp-server](https://img.shields.io/crates/v/rig-mcp-server?style=flat-square&label=rig-mcp-server&color=0f766e)](https://crates.io/crates/rig-mcp-server) | Serve Rig agents and tools over MCP, stdio or Streamable HTTP |
+| [![rig-multiagent](https://img.shields.io/crates/v/rig-multiagent?style=flat-square&label=rig-multiagent&color=0f766e)](https://crates.io/crates/rig-multiagent) | Swarms that hand off work and graphs of agents: streamed, human-in-the-loop, resumable |
+| [![rig-agentcore](https://img.shields.io/crates/v/rig-agentcore?style=flat-square&label=rig-agentcore&color=0f766e)](https://crates.io/crates/rig-agentcore) | Run a Rig agent on AWS Bedrock AgentCore Runtime |
+| [![rig-otel](https://img.shields.io/crates/v/rig-otel?style=flat-square&label=rig-otel&color=0f766e)](https://crates.io/crates/rig-otel) | OpenTelemetry in one call: spans, GenAI metrics, cross-process traces |
+| [![rig-evals](https://img.shields.io/crates/v/rig-evals?style=flat-square&label=rig-evals&color=0f766e)](https://crates.io/crates/rig-evals) | Evaluate agents: datasets, LLM judges, pass-rate gates for CI, JUnit reports |
+
+#### 🧬 Now building: [nf-agents](https://github.com/pingedbrain/nf-agents)
+
+AI agents **inside** Nextflow pipelines, in your own cloud account, with evals and lineage. Rust lineage tooling exposed over MCP, nf-core-compatible agent modules, and `nf-llm-replay` so PR tests need no API keys. <sub>Pre-alpha.</sub>
 
 #### 📡 Latest pings
 <!--PINGS:START-->
