@@ -27,11 +27,11 @@ AI agents **inside** Nextflow pipelines, in your own cloud account, with evals a
 
 #### 📡 Latest pings
 <!--PINGS:START-->
-- [`ministackorg/ministack`](https://github.com/ministackorg/ministack/pull/2506) feat(s3control): account-level public access block
-- [`ministackorg/ministack`](https://github.com/ministackorg/ministack/pull/2435) feat(ssm): documents + automation executions
-- [`ministackorg/ministack`](https://github.com/ministackorg/ministack/pull/2489) IAM: service-specific credentials and server certificates
-- [`pingedbrain/microburst`](https://github.com/pingedbrain/microburst/pull/20) chore(fidelity): absorb verified-harmless model drift (botocore 1.43.120)
-- [`pingedbrain/microburst`](https://github.com/pingedbrain/microburst/pull/19) feat(tls): client-side TLS termination via --tls-cert/--tls-key
+- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/11) feat(rig-multiagent): document repetition detection and tighten handoff prompt
+- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/9) feat(rig-agentcore): keep sessions in a rig-memory store with history_store
+- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/8) feat(rig-multiagent): give swarm and graph agent runs a turn budget
+- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/7) feat(rig-evals): add evals example on a mixed support dataset
+- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/6) feat(rig-otel): add a console example of the README flow
 <!--PINGS:END-->
 
 <sub>Updated daily by a GitHub Action from my merged PRs.</sub>
