@@ -27,11 +27,11 @@ AI agents **inside** Nextflow pipelines, in your own cloud account, with evals a
 
 #### 📡 Latest pings
 <!--PINGS:START-->
-- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/11) feat(rig-multiagent): document repetition detection and tighten handoff prompt
-- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/9) feat(rig-agentcore): keep sessions in a rig-memory store with history_store
-- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/8) feat(rig-multiagent): give swarm and graph agent runs a turn budget
-- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/7) feat(rig-evals): add evals example on a mixed support dataset
-- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/6) feat(rig-otel): add a console example of the README flow
+- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/62) Test the Host allowlist and the session, context and window caps
+- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/61) ci(examples): assert an output marker for each keyless example
+- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/60) test: cover AgentCore settle and swarm agent timeouts, de-flake MCP cancel
+- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/59) fix(examples): short failure output, rate-limit hint, OTLP in agentcore serve
+- [`pingedbrain/rig-contrib`](https://github.com/pingedbrain/rig-contrib/pull/58) feat(rig-a2a): opt-in Host allowlist on A2aServer
 <!--PINGS:END-->
 
 <sub>Updated daily by a GitHub Action from my merged PRs.</sub>
